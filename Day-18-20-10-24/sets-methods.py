@@ -16,3 +16,12 @@ print(s3)
 
 # symmetric_difference() method return those values which are not common in both the sets
 print(s1.symmetric_difference(s2))
+
+# disjoint()
+# issuperset()
+# add() can add new items in the set
+# remove('value') it will give an error if given value is not found
+# discard('value') # it will not give an error if given value is not found
+# pop() this method removes the random item from the set
+# del setName it will delete the whole set
+# clear() it will clear all the values from the set
