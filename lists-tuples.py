@@ -142,3 +142,15 @@ def rotatedListByKTimes(list, k):
     return list
 
 print(rotatedListByKTimes([1, 2, 3, 4, 5], 2))
+
+# Write a Python program to remove duplicates from a list using a set.
+# Expected Output: [1, 2, 3, 4, 5]
+input = [1, 2, 2, 3, 4, 4, 5]
+uniqueInt = []
+seen = set()
+for i in input:
+    if i not in seen:
+        uniqueInt.append(i)
+        seen.add(i)
+
+print(list(uniqueInt))
