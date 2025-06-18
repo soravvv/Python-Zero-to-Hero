@@ -154,3 +154,7 @@ for i in input:
         seen.add(i)
 
 print(list(uniqueInt))
+
+# Check if two sets have any elements in common.
+# Input: {1, 2, 3}, {3, 4, 5}
+# Expected Output: True (common element is 3)
